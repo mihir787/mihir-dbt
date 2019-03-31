@@ -19,6 +19,4 @@ WORKDIR /opt/app
 ADD . /opt/app
 
 RUN set -a && \
-  dbt deps \
-    --profiles-dir $DBT_PROFILES_DIR \
-    --profile $DBT_PROFILE
+  dbt deps
