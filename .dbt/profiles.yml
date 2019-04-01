@@ -1,0 +1,12 @@
+dbt_mihir:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: mihir-dbt-project.clgajo53ovo8.us-east-1.rds.amazonaws.com
+      user: mihir787
+      pass: mypassword
+      port: 5432
+      dbname: mihirdbt
+      schema: dbt_mihir
+      threads: 1
