@@ -17,6 +17,3 @@ RUN pip install dbt==0.10.1
 WORKDIR /opt/app
 
 ADD . /opt/app
-
-RUN set -a && \
-  dbt deps
