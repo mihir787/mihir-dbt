@@ -1,0 +1,8 @@
+customer_invoices:
+  constraints:
+    not_null:
+      - id
+      - name
+      - contact_name
+      - phone
+      - territory_description
