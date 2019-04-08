@@ -1,5 +1,5 @@
 FROM quay.io/aptible/ubuntu:16.04
-MAINTAINER Mihir Parikh <mihir@healthify.us>
+MAINTAINER Mihir Parikh <mihir787@gmail.com>
 
 # -----------------------------------------------------
 # System prerequisites

@@ -1,0 +1,9 @@
+region_territories:
+  constraints:
+    unique:
+      - territory_id
+    not_null:
+      - region_id
+      - territory_id
+      - territory_description
+      - region_description

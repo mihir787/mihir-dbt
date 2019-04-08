@@ -21,3 +21,6 @@ models:
       employee:
         utils:
           schema: utils
+      region_territories:
+        utils:
+          schema: utils

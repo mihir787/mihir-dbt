@@ -5,6 +5,7 @@ docker images #top id
 docker run -i -t 0d2c8c15d61e /bin/bash
 
 dbt run --profiles-dir .dbt
+dbt test --profiles-dir .dbt
 
 $(aws ecr get-login --no-include-email --region us-east-1) #login
 
