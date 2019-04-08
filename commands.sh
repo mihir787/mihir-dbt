@@ -2,7 +2,7 @@ PGPASSWORD=mypassword psql --host mihir-dbt-project.clgajo53ovo8.us-east-1.rds.a
 
 docker build -t mihir-dbt . --no-cache
 docker images #top id
-docker run -i -t 0d2c8c15d61e /bin/bash
+docker run -i -t mihir-dbt:latest /bin/bash
 
 dbt run --profiles-dir .dbt
 dbt test --profiles-dir .dbt
