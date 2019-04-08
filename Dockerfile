@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
   curl \
   git \
   libpq-dev \
-  mysql-client \
   postgresql-client \
   python-dev \
   python-pip
